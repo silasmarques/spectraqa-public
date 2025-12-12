@@ -1,51 +1,62 @@
 # SpectraQA 🚀
 
-**SpectraQA** é uma plataforma moderna e completa para Gestão de Qualidade de Software (QA), projetada para otimizar o ciclo de vida de testes e potencializar a produtividade dos times de QA através de automação inteligente e integrações poderosas.
+**SpectraQA** é uma plataforma inovadora de Orchestration & AI for QA, desenvolvida para transformar a maneira como times de engenharia gerenciam a qualidade de software. Combinando gestão robusta de artefatos com o poder da Inteligência Artificial Generativa, o SpectraQA acelera a criação, execução e manutenção de testes.
 
-> **Nota:** Este repositório serve como apresentação pública do projeto. O código-fonte proprietário é mantido em um repositório privado seguro.
-
----
-
-## 🌟 Funcionalidades Principais
-
-O SpectraQA oferece um conjunto abrangente de ferramentas para cobrir todas as etapas do processo de garantia de qualidade:
-
-### 📊 Dashboard Executivo
-Uma visão centralizada e em tempo real da saúde do seus projetos.
-- **Métricas de Qualidade:** Acompanhe taxas de aprovação, falha e cobertura de testes.
-- **Atividades Recentes:** Feed ao vivo das últimas execuções e atualizações.
-- **Resumo de Projetos:** Visão macro de todos os projetos ativos e seus status.
-
-### 🤖 Geração de BDD com IA
-Acelere a escrita de cenários de teste utilizando Inteligência Artificial.
-- **Conversão Automática:** Transforme requisitos simples em cenários Gherkin (Given/When/Then) estruturados.
-- **Refinamento de Cenários:** A IA sugere melhorias e casos alternativos para seus testes.
-
-### ⚡ Gerador de Testes K6 (Performance)
-Crie scripts de teste de carga e performance sem complicações.
-- **Interface Visual:** Configure parâmetros de teste (VUs, duração, thresholds) através de uma UI amigável.
-- **Exportação de Scripts:** Gere arquivos prontos para execução no K6.
-
-### 🔗 Integração com Jira
-Conecte-se diretamente ao ecossistema Atlassian.
-- **Sincronização Bidirecional:** Vincule casos de teste a User Stories e Bugs no Jira.
-- **Sugestões Inteligentes:** O sistema analisa tickets do Jira e sugere casos de teste relevantes automaticamente.
-
-### 🧪 Gestão de Projetos e Testes
-Organização completa para seus artefatos de teste.
-- **Suites de Teste:** Organize seus casos de teste em suites lógicas e reutilizáveis.
-- **Histórico de Execuções:** Mantenha um registro detalhado de todas as baterias de teste passadas.
-- **Consultor QA:** Um assistente virtual integrado para tirar dúvidas sobre melhores práticas de teste e automação.
-
-### 📚 Base de Conhecimento e Comunidade
-- **Knowledge Base:** Central de documentação para compartilhar padrões e guias com o time.
-- **Feedback da Comunidade:** Canal direto para melhoria contínua da ferramenta baseada no uso real.
+> **Nota:** Este é o repositório público de apresentação. O núcleo da aplicação reside em um repositório privado para proteção de propriedade intelectual.
 
 ---
 
+## 🌟 Visão Geral das Funcionalidades
 
-## 📬 Contato
+### 1. 📊 Dashboard Executivo & Analytics
+O centro de comando para líderes e QAs.
+- **Visão 360º:** Cards interativos com métricas vitais como Total de Projetos, Test Runs Ativos e Taxa de Aprovação Global.
+- **Gráficos de Tendência:** Acompanhamento visual da evolução da qualidade ao longo do tempo (Pass/Fail/Skip).
+- **Feed de Atividades:** Log em tempo real de todas as ações importantes realizadas pelo time.
 
-Interessado em saber mais sobre o **SpectraQA** ou discutir oportunidades de implementação?
+### 2. 🤖 BDD Generator com IA (Gherkin Inteligente)
+Esqueça a escrita manual e repetitiva de cenários.
+- **Conversão de Requisitos:** Digite uma história de usuário ou requisito funcional simples e deixe a IA estruturar cenários Gherkin (Given/When/Then) completos.
+- **Refinamento Automático:** A IA sugere caminhos alternativos (Edge Cases) e validações que você pode ter esquecido.
+- **Suporte Nativo PT-BR:** Configurado para gerar keywords em Português (Dado/Quando/Então) automaticamente.
 
-Desenvolvido por **Silas Marques**. Entre em contato para demonstrações ou acesso ao portfólio completo.
+### 3. ⚡ Gerador de Testes de Carga (K6)
+Performance testing democratizado.
+- **Interface No-Code:** Configure testes de carga complexos preenchendo formulários visuais (Virtual Users, Ramp-up, Duration).
+- **Thresholds Inteligentes:** Defina critérios de aceitação (ex: p95 < 500ms) diretamente na UI.
+- **Exportação Pronta:** Gera scripts JavaScript otimizados prontos para rodar no K6 CLI ou Cloud.
+
+### 4. 🔗 Integração Deep-Link com Jira
+Conecte qualidade ao planejamento.
+- **Vínculo Transparente:** Associe Casos de Teste diretamente a User Stories ou Bugs do Jira.
+- **Sugestões via IA:** O sistema lê a descrição do ticket no Jira e propõe, proativamente, cenários de teste para cobrir aquela funcionalidade.
+
+### 5. 👥 Feedback da Comunidade & Roadmap
+Um canal direto entre usuários e mantenedores.
+- **Votação de Features:** Usuários podem sugerir e votar em novas funcionalidades.
+- **Triagem Administrativa:** Ferramentas para agrupar feedbacks similares, fundir sugestões e responder à comunidade.
+- **Status Transparente:** Acompanhe o ciclo de vida de cada sugestão (Em Análise → Planejado → Concluído).
+
+### 6. 🛡️ Painel Administrativo
+Controle total sobre o acesso e uso da plataforma.
+- **Gestão de Usuários:** Visualize todos os usuários cadastrados, seus e-mails e datas de entrada.
+- **Controle de Acesso:** Bloqueie/Desbloqueie usuários suspeitos ou inativos com um clique.
+- **Gestão de Trials:** Defina prazos de expiração personalizados para contas de demonstração (ex: liberar acesso por 7 dias).
+
+### 7. ⚙️ Configurações & Preferências
+Personalize a experiência para fluxo de trabalho.
+- **Customização de IA:** Ajuste o comportamento dos modelos geradores.
+- **Automação de UI:** Opções como "Cópia Automática" de artefatos gerados para agilizar o copy-paste.
+
+### 8. 📚 Consultor QA & Knowledge Base
+Seu mentor de qualidade 24/7.
+- **Assistente IA:** Um chat especializado treinado em melhores práticas de QA, Patterns de Automação e Estratégias de Teste.
+- **Documentação Viva:** Centralize padrões de projeto, guias de estilo e on-boarding de novos membros.
+
+---
+
+## 📬 Fale Conosco
+
+O **SpectraQA** está em evolução constante. Se você busca uma solução para modernizar a sua gestão de qualidade ou quer conhecer mais sobre a arquitetura do projeto:
+
+**Desenvolvido por Silas Marques**
