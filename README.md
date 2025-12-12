@@ -43,19 +43,6 @@ Organização completa para seus artefatos de teste.
 
 ---
 
-## 🛠️ Stack Tecnológica
-
-Construído com as tecnologias mais modernas do mercado para garantir performance, escalabilidade e uma excelente experiência de usuário (DX/UX).
-
-| Categoria | Tecnologias |
-|-----------|-------------|
-| **Frontend** | React, Vite, TypeScript |
-| **UI/UX** | shadcn/ui, Tailwind CSS, Lucide Icons |
-| **Estado & Data** | TanStack Query, React Hook Form, Zod |
-| **Backend & Auth** | Supabase (PostgreSQL, Auth, Realtime) |
-| **Análise** | Recharts (Visualização de Dados) |
-
----
 
 ## 📬 Contato
 
