@@ -55,8 +55,10 @@ Seu mentor de qualidade 24/7.
 
 ---
 
-## 📬 Fale Conosco
+## 📬 Vamos Conversar?
 
-O **SpectraQA** está em evolução constante. Se você busca uma solução para modernizar a sua gestão de qualidade ou quer conhecer mais sobre a arquitetura do projeto:
+O **SpectraQA** é um projeto que reflete minha paixão por qualidade e engenharia de software. Se você gostou do que viu, tem alguma dúvida técnica ou quer discutir oportunidades, adoraria trocar uma ideia com você!
 
-**Desenvolvido por Silas Marques**
+**Silas Marques**
+- 📧 [silasuni@gmail.com](mailto:silasuni@gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/silasmarques/)
